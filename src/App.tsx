@@ -17,6 +17,27 @@ function App() {
       <input type="text" />
       <h5>Questions</h5>
       <input type="text" />
+      <button>+ Create</button>
+      <h3>Preview Worksheet</h3>
+      <p>Title</p>
+      <div className='list'>
+        <div>
+          <h4>Answers</h4>
+          <ol>
+            <li>Answer</li>
+            <li>Answer</li>
+            <li>Answer</li>
+          </ol>
+        </div>
+        <div>
+          <h4>Questions</h4>
+          <ol>
+            <li>Questions</li>
+            <li>Questions</li>
+            <li>Questions</li>
+          </ol>
+        </div>
+      </div>
     </>
   )
 }
